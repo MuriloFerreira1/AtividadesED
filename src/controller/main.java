@@ -33,7 +33,8 @@ public class main {
 			case 4:
 				String frase = JOptionPane.showInputDialog("Insira o texto a ser Invertido");
 				String textoFinal=c.ex04Inverter(frase, frase.length());
-				System.out.println("O texto invertido resulta em: ");
+				JOptionPane.showMessageDialog(null, "O texto invertido resulta em: \n"+textoFinal);
+				break;
 			case 0:
 				JOptionPane.showMessageDialog(null, "Finalizando.");
 				break;
