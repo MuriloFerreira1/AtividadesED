@@ -45,7 +45,7 @@ public class Controller {
 			//chama o proximo termo usando um tamanho final menor
 			return frase.substring(tamanho-1, tamanho)+ ex04Inverter(frase, tamanho-1);
 		}else {
-			//a recursiva para quando chegua ao primeiro caractere
+			//a recursiva para quando chega ao primeiro caractere
 			return frase.substring(0,1);
 		}
 	}
